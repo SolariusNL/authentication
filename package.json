@@ -1,0 +1,20 @@
+{
+  "name": "@solariusnl/authentication",
+  "version": "1.0.0",
+  "description": "Session authorization system for Solarius apps",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "repository": "https://github.com/SolariusNL/authentication",
+  "author": "Solarius B.V.",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.7.2",
+    "node-fetch": "^3.3.2"
+  }
+}
