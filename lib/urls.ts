@@ -1,4 +1,2 @@
-export const urls = {
-  fw: "https://framework.solarius.me",
-  media: "https://media.solarius.me",
-};
+export const fw = "https://framework.solarius.me";
+export const media = "https://media.solarius.me";

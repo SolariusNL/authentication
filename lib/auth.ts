@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
+import { urls } from ".";
 import { User } from "./types";
-import { urls } from "./urls";
 import { cast } from "./util";
 
 export const getFwUser = async (cookie: string): Promise<User> => {
