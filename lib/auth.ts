@@ -10,8 +10,8 @@ export const getFwUser = async (cookie: string): Promise<User> => {
     },
   });
 
-  const json = cast<{ user: User }>(await res.json());
-  if (!json.user) throw new Error("Invalid cookie");
+  const data = cast<User>(await res.json());
+  if (!data || !data.id) throw new Error("Invalid cookie");
 
-  return json.user;
+  return data;
 };
