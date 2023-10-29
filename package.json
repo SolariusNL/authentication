@@ -1,6 +1,6 @@
 {
   "name": "@solariusnl/authentication",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Session authorization system for Solarius apps",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
